@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"errors"
-	"fmt"
+	"github.com/JammUtkarsh/cshare/httpBin"
 	"github.com/spf13/cobra"
 )
 
@@ -22,9 +22,9 @@ var cpCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		// TODO: Add http parsing methods
 		if clip == "" {
-			fmt.Println(args[0])
+			httpControllers.POSTrequest(args[0])
 		} else {
-			fmt.Println(clip)
+			httpControllers.POSTrequest(clip)
 		}
 	},
 	Example: `cshare cp text

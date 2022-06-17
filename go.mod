@@ -1,4 +1,4 @@
-module cshare
+module github.com/JammUtkarsh/cshare
 
 go 1.18
 

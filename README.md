@@ -1,6 +1,6 @@
 ## Cshare(Clip Share) (_Under Development_)
 
-![Cshare Logo](https://github.com/JammUtkarsh/jammutkarsh/blob/main/misc/Cshare.png?raw=true)
+![Cshare Logo](https://github.com/JammUtkarsh/cshare/blob/main/misc/Cshare.png?raw=true)
 
 Cshare is a CLI app that lets you send clips/texts across multiple devices.
 
@@ -20,7 +20,7 @@ This is how I was inspired to make this app.
 # ⚙ Mechanism
 
 - Install the client-side app on the devices you want to share clip on. 
-- Follow the [user guide](https://github.com/JammUtkarsh/jammutkarsh/blob/main/UserGuide.md) and run the necessary commands.
+- Follow the [user guide](https://github.com/JammUtkarsh/cshare/blob/main/UserGuide.md) and run the necessary commands.
 - `cp` command  will send an _POST_  request to the server. 
 - `paste` command will make a _GET_ request from the server.
 - This server can be self-hosted or could be centrally provided. 

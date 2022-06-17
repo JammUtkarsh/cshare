@@ -1,6 +1,6 @@
 package main
 
-import "cshare/cmd"
+import "github.com/JammUtkarsh/cshare/cmd"
 
 func main() {
 	cmd.Execute()

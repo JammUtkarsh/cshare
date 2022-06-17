@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-
+	"github.com/JammUtkarsh/cshare/httpBin"
 	"github.com/spf13/cobra"
 )
 
@@ -12,7 +12,7 @@ var pasteCmd = &cobra.Command{
 	Short: "paste the last copied text.",
 	Long:  `paste the last copied text from server sent by other device.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("paste called")
+		fmt.Println(httpControllers.GETrequest())
 	},
 }
 
